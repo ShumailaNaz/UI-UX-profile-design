@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 500px;
+    margin: auto;
+}
+.container{
+max-width: 350px; 
+border-radius: 10px;
+background-color: #f2f3ff;
+
+}
+.profile{
+    background-color: #fff;
+    width: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.nav{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.details{
+    text-align: center;
+}
+.details>img{
+    width: 150px;
+    
+}
+.records{
+    width: 300px;
+    margin: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.record{
+    border-right: 1px solid rgb(239, 238, 238);
+}
+.headline{
+    width: 300px;
+    margin: 15px auto;
+}
+.headline,.heading{
+    display: flex;
+    justify-content: space-between;
+}.heading>img{
+    line-height: 50px;
+    height: 30px;
+    width: 30px;
+}
+.transaction{
+    background-color: #fff;
+    display: flex;
+    width: 300px;
+    margin: 10px auto;
+    padding: 10px 5px;
+    border-radius: 20px;
+    justify-content: space-between;
+  
+
+}
+
+.money{
+    float: right;
+}
+.image{
+    display: flex;
+}
+.transaction>.image>img{
+    width:50px;
+   
+   
+}
+.footer{
+    width: 300px;
+    margin: 10px auto;
+    display: flex;
+justify-content: space-between;
+}
+.footer>.icon>img{
+    width: 40px;
+}
